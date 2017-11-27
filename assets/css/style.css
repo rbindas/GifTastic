@@ -1,0 +1,43 @@
+body {
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+#buttons-view {
+	display:table;
+	position:relative;
+	margin:0 auto;
+}
+
+.jumbotron {
+  font-family: 'Freckle Face', cursive;
+  text-align: center;
+  width: 65%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 175px;
+  border: 2px solid #ffff66;
+  background-color: #C0C0C0;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+
+#emotions label {
+    display: block;
+    margin-left: auto;
+ 	margin-right: auto;
+        
+}
+
+form {
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#giphy-display {
+	display: block; /*for the img inside your div */ 
+	margin: 30px;
+}
